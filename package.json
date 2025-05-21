@@ -48,8 +48,11 @@
 		"vitest": "^3.0.0"
 	},
 	"dependencies": {
+		"@neondatabase/api-client": "^2.0.0",
+		"@vercel/edge-config": "^1.4.0",
 		"drizzle-orm": "^0.40.0",
-		"postgres": "^3.4.5"
+		"postgres": "^3.4.5",
+		"rubico": "^2.6.5"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
