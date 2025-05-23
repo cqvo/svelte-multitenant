@@ -4,7 +4,9 @@ declare global {
 	namespace App {
 		// interface Error {}
 		interface Locals {
-			tenant: EdgeConfigValue
+			tenant: EdgeConfigValue;
+			logtoClient: LogtoClient;
+			user?: UserInfoResponse;
 		}
 		// interface PageData {}
 		// interface PageState {}

@@ -1,6 +1,7 @@
 // routes/+layout.server.ts
 import type { LayoutServerLoad } from './$types';
 import { getDbClient } from '$lib/server/db';
+import { getPlaidClient } from '$lib/server/plaid';
 
 export const load: LayoutServerLoad = async ({ locals }) => {
 	// Get tenant config from locals (set by your hook)

@@ -30,6 +30,7 @@
 		"@testing-library/jest-dom": "^6.6.3",
 		"@testing-library/svelte": "^5.2.4",
 		"@types/node": "^22",
+		"aws-sdk-client-mock": "^4.1.0",
 		"drizzle-kit": "^0.30.2",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
@@ -48,9 +49,12 @@
 		"vitest": "^3.0.0"
 	},
 	"dependencies": {
+		"@aws-sdk/client-kms": "^3.812.0",
+		"@logto/sveltekit": "^0.3.17",
 		"@neondatabase/api-client": "^2.0.0",
 		"@vercel/edge-config": "^1.4.0",
 		"drizzle-orm": "^0.40.0",
+		"plaid": "^34.0.0",
 		"postgres": "^3.4.5",
 		"rubico": "^2.6.5"
 	},
